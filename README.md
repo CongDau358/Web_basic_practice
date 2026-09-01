@@ -8,6 +8,13 @@
 | 3 | Tạ Công Hiếu | 23012020 | Thành viên |
 | 4 | Nguyễn Tiến Thành | 23010841 | Thành viên |
 
+
+## 3. Công nghệ sử dụng
+
+- HTML5
+- CSS3
+- JavaScript
+
 ## 4. Cấu trúc project
 
 ```text
