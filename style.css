@@ -1,0 +1,98 @@
+/* Import font chữ Poppins nhìn cho hiện đại */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #f4f7f6;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Căn giữa toàn bộ khung web */
+header, main {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* --- PHẦN HEADER --- */
+header {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+header img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover; /* Đảm bảo ảnh không bị méo */
+    border-radius: 50%; /* Cắt ảnh thành hình tròn */
+    border: 5px solid #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+header img:hover {
+    transform: scale(1.05); /* Zoom nhẹ xíu khi đưa chuột vào avatar */
+}
+
+header h1 {
+    margin-top: 15px;
+    color: #2c3e50;
+    font-size: 1.8rem;
+}
+
+/* --- PHẦN THÔNG TIN (CARDS) --- */
+section {
+    background: #fff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    margin-bottom: 20px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+section:hover {
+    transform: translateY(-3px); /* Hiệu ứng thẻ nổi lên khi hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #3498db;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #ecf0f1;
+    padding-bottom: 8px;
+    font-size: 1.3rem;
+}
+
+ul {
+    list-style: none; /* Xóa mấy cái dấu chấm tròn nhàm chán */
+}
+
+li {
+    margin-bottom: 12px;
+    font-size: 1rem;
+}
+
+strong {
+    color: #2c3e50;
+}
+
+/* --- PHẦN LINK --- */
+a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #2980b9;
+    text-decoration: underline;
+}
